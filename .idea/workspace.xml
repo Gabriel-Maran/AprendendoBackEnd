@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e4dc42c-56bf-40e8-92ff-c970d8ad7026" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Aula01/dominio/CaixaDAgua.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula01/dominio/Servico.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aula01/teste/CaixaDAguaTeste01.kt" afterDir="false" />
+    <list default="true" id="1e4dc42c-56bf-40e8-92ff-c970d8ad7026" name="Changes" comment="Aprendendo Back End - Revisão de Classe e Objeto">
+      <change afterPath="$PROJECT_DIR$/src/Aula01/dominio/Cliente.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula01/dominio/Endereco.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula01/dominio/Pessoa.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula01/dominio/Profissional.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula01/dominio/Senioridade.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aula01/dominio/Sexo.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/dominio/Servico.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula01/dominio/Servico.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/teste/CaixaDAguaTeste01.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula01/teste/CaixaDAguaTeste01.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Enum" />
         <option value="Class" />
         <option value="Kotlin Class" />
       </list>
@@ -27,18 +32,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Gabriel-Maran"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Gabriel-Maran&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Gabriel-Maran/AprendendoBackEnd.git",
-    "accountId": "26adb41b-173e-4d27-b47f-89c4abac3aca"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Gabriel-Maran/AprendendoBackEnd.git&quot;,
+    &quot;accountId&quot;: &quot;26adb41b-173e-4d27-b47f-89c4abac3aca&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -48,15 +53,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Kotlin.CaixaDAguaTeste01Kt.executor": "Run",
-    "Kotlin.MainKt.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Kotlin.CaixaDAguaTeste01Kt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="CaixaDAguaTeste01Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Aula01.teste.CaixaDAguaTeste01Kt" />
@@ -80,6 +85,19 @@
       <option name="presentableId" value="Default" />
       <updated>1754521173097</updated>
     </task>
+    <task id="LOCAL-00001" summary="Aprendendo Back End - Revisão de Classe e Objeto">
+      <option name="closed" value="true" />
+      <created>1755041578174</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1755041578174</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Aprendendo Back End - Revisão de Classe e Objeto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aprendendo Back End - Revisão de Classe e Objeto" />
   </component>
 </project>
