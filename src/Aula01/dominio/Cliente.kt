@@ -1,6 +1,6 @@
 package Aula01.dominio
 
-import java.math.BigDecimal
+import Aula01.dominio.enums.Sexo
 
 class Cliente(
     CPF: String,

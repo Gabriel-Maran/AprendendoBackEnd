@@ -1,6 +1,8 @@
 package Aula01.teste
 
 import Aula01.dominio.*
+import Aula01.dominio.enums.Senioridade
+import Aula01.dominio.enums.Sexo
 import java.math.BigDecimal
 import java.time.LocalDate
 

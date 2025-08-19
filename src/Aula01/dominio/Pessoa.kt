@@ -1,5 +1,7 @@
 package Aula01.dominio
 
+import Aula01.dominio.enums.Sexo
+
 open class Pessoa(
     var CPF: String,
     var nome: String,
