@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e4dc42c-56bf-40e8-92ff-c970d8ad7026" name="Changes" comment="Aprendendo Back End - Revisão Herança, dependecias e propriedades da orientação a objetos, tanto geral, quanto de Kotlin">
+      <change afterPath="$PROJECT_DIR$/src/Aula01/dominio/enums/Material.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/dominio/CaixaDAgua.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula01/dominio/entidades/CaixaDAgua.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/dominio/Cliente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula01/dominio/entidades/Cliente.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/dominio/Endereco.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula01/dominio/entidades/Endereco.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/dominio/Pessoa.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula01/dominio/entidades/Pessoa.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/dominio/Profissional.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula01/dominio/entidades/Profissional.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/dominio/Servico.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula01/dominio/entidades/Servico.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/dominio/enums/Setor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula01/dominio/enums/Setor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/dominio/enums/Sexo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula01/dominio/enums/Sexo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/teste/CaixaDAguaTeste01.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula01/teste/CaixaDAguaTeste01.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +25,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Enum" />
         <option value="Class" />
         <option value="Kotlin Class" />
+        <option value="Kotlin Enum" />
       </list>
     </option>
   </component>
@@ -45,15 +55,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Kotlin.CaixaDAguaTeste01Kt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Kotlin.CaixaDAguaTeste01Kt.executor": "Run",
+    "Kotlin.MainKt.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="Aula01.dominio.entidades" />
+      <recent name="Aula01.dominio.enums" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="CaixaDAguaTeste01Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Aula01.teste.CaixaDAguaTeste01Kt" />
@@ -93,7 +113,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755127959412</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Aprendendo Back End - Revisão Herança, dependecias e propriedades da orientação a objetos, tanto geral, quanto de Kotlin">
+      <option name="closed" value="true" />
+      <created>1755642425927</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1755642425927</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -1,4 +1,4 @@
-package Aula01.dominio
+package Aula01.dominio.entidades
 
 import java.math.BigDecimal
 import java.time.LocalDate
@@ -12,6 +12,6 @@ class Servico(
     var trabalhaSeChover: Boolean,
     var expediente: Int
 ) {
-    var dataInicioReal: LocalDate = LocalDate.of(0, 0, 0)
-    var dataFimReal: LocalDate = LocalDate.of(0, 0, 0)
+    var dataInicioReal: LocalDate = LocalDate.of(9999, 1, 1)
+    var dataFimReal: LocalDate = LocalDate.of(9999, 1, 1)
 }

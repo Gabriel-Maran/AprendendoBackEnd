@@ -1,4 +1,4 @@
-package Aula01.dominio
+package Aula01.dominio.entidades
 
 import Aula01.dominio.enums.Sexo
 

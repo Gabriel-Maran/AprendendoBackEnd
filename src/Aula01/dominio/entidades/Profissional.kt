@@ -1,6 +1,7 @@
-package Aula01.dominio
+package Aula01.dominio.entidades
 
 import Aula01.dominio.enums.Senioridade
+import Aula01.dominio.enums.Setor
 import Aula01.dominio.enums.Sexo
 import java.math.BigDecimal
 import java.util.Optional
@@ -17,7 +18,8 @@ class Profissional(
     var profissao: String,
     var senioridade: Senioridade,
     var habilidade: String,
-    var salario: BigDecimal
+    var salario: BigDecimal,
+    var SETOR: Setor
 ) : Pessoa(
     nome = nome, idade = idade, altura = altura, peso = peso, sexo = sexo,
     CPF = CPF, endereco = endereco
@@ -25,4 +27,9 @@ class Profissional(
     var eFormado: Optional<Boolean> = Optional.empty<Boolean>()
     var formação: Optional<String> = Optional.empty<String>()
 
+    fun instalarCaixasDAgua(caixaDAgua: CaixaDAgua){
+        if(this.SETOR == Setor.INSTALADOR){
+
+        }
+    }
 }
