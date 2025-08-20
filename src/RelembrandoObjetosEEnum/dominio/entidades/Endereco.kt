@@ -1,4 +1,4 @@
-package Aula01.dominio.entidades
+package RelembrandoObjetosEEnum.dominio.entidades
 
 class Endereco(
     logradouro: String,

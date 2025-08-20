@@ -1,4 +1,4 @@
-package Aula01.dominio.entidades
+package RelembrandoObjetosEEnum.dominio.entidades
 
 import java.math.BigDecimal
 import java.time.LocalDate

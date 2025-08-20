@@ -4,18 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e4dc42c-56bf-40e8-92ff-c970d8ad7026" name="Changes" comment="Aprendendo Back End - Revisão Herança, dependecias e propriedades da orientação a objetos, tanto geral, quanto de Kotlin">
-      <change afterPath="$PROJECT_DIR$/src/Aula01/dominio/enums/Material.kt" afterDir="false" />
+    <list default="true" id="1e4dc42c-56bf-40e8-92ff-c970d8ad7026" name="Changes" comment="Aprendendo Back End - Revisão Enums e packges">
+      <change afterPath="$PROJECT_DIR$/src/RelembrandoObjetosEEnum/dominio/entidades/Conta.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RelembrandoObjetosEEnum/dominio/enums/TipoConta.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula01/dominio/CaixaDAgua.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula01/dominio/entidades/CaixaDAgua.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula01/dominio/Cliente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula01/dominio/entidades/Cliente.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula01/dominio/Endereco.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula01/dominio/entidades/Endereco.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula01/dominio/Pessoa.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula01/dominio/entidades/Pessoa.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula01/dominio/Profissional.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula01/dominio/entidades/Profissional.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula01/dominio/Servico.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula01/dominio/entidades/Servico.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula01/dominio/enums/Setor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula01/dominio/enums/Setor.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula01/dominio/enums/Sexo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula01/dominio/enums/Sexo.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula01/teste/CaixaDAguaTeste01.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula01/teste/CaixaDAguaTeste01.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/dominio/entidades/CaixaDAgua.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/RelembrandoObjetosEEnum/dominio/entidades/CaixaDAgua.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/dominio/entidades/Cliente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/RelembrandoObjetosEEnum/dominio/entidades/Cliente.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/dominio/entidades/Endereco.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/RelembrandoObjetosEEnum/dominio/entidades/Endereco.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/dominio/entidades/Pessoa.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/RelembrandoObjetosEEnum/dominio/entidades/Pessoa.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/dominio/entidades/Profissional.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/RelembrandoObjetosEEnum/dominio/entidades/Profissional.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/dominio/entidades/Servico.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/RelembrandoObjetosEEnum/dominio/entidades/Servico.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/dominio/enums/Material.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/RelembrandoObjetosEEnum/dominio/enums/Material.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/dominio/enums/Senioridade.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/RelembrandoObjetosEEnum/dominio/enums/Senioridade.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/dominio/enums/Setor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/RelembrandoObjetosEEnum/dominio/enums/Setor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/dominio/enums/Sexo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/RelembrandoObjetosEEnum/dominio/enums/Sexo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula01/teste/CaixaDAguaTeste01.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/RelembrandoObjetosEEnum/teste/CaixaDAguaTeste01.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +31,7 @@
         <option value="Class" />
         <option value="Kotlin Class" />
         <option value="Kotlin Enum" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -57,6 +61,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Kotlin.AKt.executor": "Run",
     "Kotlin.CaixaDAguaTeste01Kt.executor": "Run",
     "Kotlin.MainKt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -65,7 +70,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -74,9 +79,16 @@
       <recent name="Aula01.dominio.enums" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Kotlin.AKt">
+    <configuration name="AKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RelembrandoObjetosEEnum.dominio.AKt" />
+      <module name="AprendendoBackEnd" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CaixaDAguaTeste01Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Aula01.teste.CaixaDAguaTeste01Kt" />
+      <option name="MAIN_CLASS_NAME" value="RelembrandoObjetosEEnum.teste.CaixaDAguaTeste01Kt" />
       <module name="AprendendoBackEnd" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -84,6 +96,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.AKt" />
         <item itemvalue="Kotlin.CaixaDAguaTeste01Kt" />
       </list>
     </recent_temporary>
@@ -121,12 +134,21 @@
       <option name="project" value="LOCAL" />
       <updated>1755642425927</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Aprendendo Back End - Revisão Enums e packges">
+      <option name="closed" value="true" />
+      <created>1755648903673</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1755648903673</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Aprendendo Back End - Revisão de Classe e Objeto" />
     <MESSAGE value="Aprendendo Back End - Revisão Herança, dependecias e propriedades da orientação a objetos, tanto geral, quanto de Kotlin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aprendendo Back End - Revisão Herança, dependecias e propriedades da orientação a objetos, tanto geral, quanto de Kotlin" />
+    <MESSAGE value="Aprendendo Back End - Revisão Enums e packges" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aprendendo Back End - Revisão Enums e packges" />
   </component>
 </project>

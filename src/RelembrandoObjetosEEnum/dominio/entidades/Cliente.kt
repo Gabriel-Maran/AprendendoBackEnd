@@ -1,6 +1,6 @@
-package Aula01.dominio.entidades
+package RelembrandoObjetosEEnum.dominio.entidades
 
-import Aula01.dominio.enums.Sexo
+import RelembrandoObjetosEEnum.dominio.enums.Sexo
 
 class Cliente(
     CPF: String,
@@ -11,11 +11,14 @@ class Cliente(
     sexo: Sexo,
     endereco: Endereco,
     var telefone: String,
-    var email: String
-) : Pessoa(
-    CPF = CPF, nome = nome, idade = idade, altura = altura,
-    peso = peso, sexo = sexo, endereco = endereco
-) {
+    var email: String,
+    var CONTA: Conta
+
+): Pessoa(
+CPF = CPF, nome = nome, idade = idade, altura = altura,
+  peso = peso, sexo = sexo, endereco = endereco
+)
+{
     var listaCompras: MutableList<String> = mutableListOf()
 
     fun compra(item: String) {

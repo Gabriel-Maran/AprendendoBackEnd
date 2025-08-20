@@ -1,4 +1,4 @@
-package Aula01.dominio.enums
+package RelembrandoObjetosEEnum.dominio.enums
 
 enum class Senioridade {
     JUNIOR,

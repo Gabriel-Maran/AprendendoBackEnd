@@ -1,6 +1,6 @@
-package Aula01.dominio.entidades
+package RelembrandoObjetosEEnum.dominio.entidades
 
-import Aula01.dominio.enums.Material
+import RelembrandoObjetosEEnum.dominio.enums.Material
 import java.math.BigDecimal
 
 class CaixaDAgua(

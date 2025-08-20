@@ -1,6 +1,6 @@
-package Aula01.dominio.entidades
+package RelembrandoObjetosEEnum.dominio.entidades
 
-import Aula01.dominio.enums.Sexo
+import RelembrandoObjetosEEnum.dominio.enums.Sexo
 
 open class Pessoa(
     var CPF: String,
