@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e4dc42c-56bf-40e8-92ff-c970d8ad7026" name="Changes" comment="Aprendendo Back End - Revisão Enums e packges">
-      <change afterPath="$PROJECT_DIR$/src/RelembrandoObjetosEEnum/dominio/entidades/Conta.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RelembrandoObjetosEEnum/dominio/enums/TipoConta.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula01/dominio/entidades/CaixaDAgua.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/RelembrandoObjetosEEnum/dominio/entidades/CaixaDAgua.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula01/dominio/entidades/Cliente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/RelembrandoObjetosEEnum/dominio/entidades/Cliente.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula01/dominio/entidades/Endereco.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/RelembrandoObjetosEEnum/dominio/entidades/Endereco.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula01/dominio/entidades/Pessoa.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/RelembrandoObjetosEEnum/dominio/entidades/Pessoa.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula01/dominio/entidades/Profissional.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/RelembrandoObjetosEEnum/dominio/entidades/Profissional.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula01/dominio/entidades/Servico.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/RelembrandoObjetosEEnum/dominio/entidades/Servico.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula01/dominio/enums/Material.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/RelembrandoObjetosEEnum/dominio/enums/Material.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula01/dominio/enums/Senioridade.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/RelembrandoObjetosEEnum/dominio/enums/Senioridade.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula01/dominio/enums/Setor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/RelembrandoObjetosEEnum/dominio/enums/Setor.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula01/dominio/enums/Sexo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/RelembrandoObjetosEEnum/dominio/enums/Sexo.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula01/teste/CaixaDAguaTeste01.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/RelembrandoObjetosEEnum/teste/CaixaDAguaTeste01.kt" afterDir="false" />
-    </list>
+    <list default="true" id="1e4dc42c-56bf-40e8-92ff-c970d8ad7026" name="Changes" comment="Aprendendo Back End - Revisão Polimorfismo, encapsulamento..." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -142,13 +127,22 @@
       <option name="project" value="LOCAL" />
       <updated>1755648903673</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Aprendendo Back End - Revisão Polimorfismo, encapsulamento...">
+      <option name="closed" value="true" />
+      <created>1755733086980</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1755733086980</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Aprendendo Back End - Revisão de Classe e Objeto" />
     <MESSAGE value="Aprendendo Back End - Revisão Herança, dependecias e propriedades da orientação a objetos, tanto geral, quanto de Kotlin" />
     <MESSAGE value="Aprendendo Back End - Revisão Enums e packges" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aprendendo Back End - Revisão Enums e packges" />
+    <MESSAGE value="Aprendendo Back End - Revisão Polimorfismo, encapsulamento..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Aprendendo Back End - Revisão Polimorfismo, encapsulamento..." />
   </component>
 </project>
