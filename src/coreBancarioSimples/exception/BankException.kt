@@ -1,4 +1,4 @@
-package RelembrandoObjetosEEnum.exercicios.coreBancarioSimples.exception
+package coreBancarioSimples.exception
 
 import java.lang.RuntimeException
 

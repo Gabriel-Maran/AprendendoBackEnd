@@ -1,7 +1,6 @@
-package RelembrandoObjetosEEnum.exercicios.coreBancarioSimples.dominio
+package coreBancarioSimples.dom
 
 import java.math.BigDecimal
-import java.time.LocalDate
 import java.time.LocalDateTime
 import java.util.UUID
 

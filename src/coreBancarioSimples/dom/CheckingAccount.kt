@@ -1,7 +1,6 @@
-package RelembrandoObjetosEEnum.exercicios.coreBancarioSimples.dominio
+package coreBancarioSimples.dom
 
-import RelembrandoObjetosEEnum.exercicios.coreBancarioSimples.exception.NotEnoughMoneyException
-import RelembrandoObjetosEEnum.exercicios.coreBancarioSimples.exception.WithdrawLimitExceededException
+import coreBancarioSimples.exception.NotEnoughMoneyException
 import java.math.BigDecimal
 import java.time.LocalDateTime
 import java.util.UUID
@@ -15,27 +14,24 @@ class CheckingAccount(
     var overdraftLimit: BigDecimal
 ) : Account(id = id, owner = owner, balance = balance, createdAt = createdAt, isActive = isActive) {
     override fun deposit(amount: BigDecimal): Transaction {
-        if (amount < BigDecimal.ZERO) {
+        if (amount <= BigDecimal.ZERO) {
             throw IllegalArgumentException("Valor de deposito deve ser maior que zero")
         }
-        this.balance += amount
+        changeBalance(amount)
         return TODO("Add Transaction return")
     }
 
     override fun withdraw(amount: BigDecimal): Transaction {
         if (amount <= BigDecimal.ZERO) {
             throw IllegalArgumentException("Valor de saque deve ser maior que zero")
-        }
-        if (this.balance.add(overdraftLimit) < amount) {
+        }else if (this.balance.add(overdraftLimit) < amount) {
             throw NotEnoughMoneyException()
         }
-        this.balance -= amount
+        changeBalance(amount.negate())
         return TODO("Add Transaction return")
     }
 
     override fun changeBalance(amount: BigDecimal) {
-        if(this.overdraftLimit < amount){
-            throw WithdrawLimitExceededException()
-        }
+        this.balance += amount
     }
 }

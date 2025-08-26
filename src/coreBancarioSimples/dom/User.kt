@@ -1,4 +1,4 @@
-package RelembrandoObjetosEEnum.exercicios.coreBancarioSimples.dominio
+package coreBancarioSimples.dom
 
 import java.util.UUID
 
